@@ -1,0 +1,25 @@
+{
+    "name": "MichaelHabib/drupal-bootstrap",
+    "description": "",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "",
+            "role": ""
+        }
+    ],
+    "repositories": [
+       
+    ],
+    "require": {
+     
+    },
+    "require-dev": {
+      
+    },
+    "conflict": {
+        
+    },
+   
+}
