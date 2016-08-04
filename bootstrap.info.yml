@@ -35,6 +35,8 @@ libraries-extend:
     - bootstrap/drupal.states
   core/drupal.tabledrag:
     - bootstrap/drupal.tabledrag
+  views/views.ajax:
+    - bootstrap/views.ajax
 
 libraries-override:
   core/drupal.batch: bootstrap/drupal.batch
@@ -62,6 +64,11 @@ libraries-override:
     css:
       theme:
         css/filter.admin.css: false
+
+  node/drupal.node.preview:
+    css:
+      theme:
+        css/node.preview.css: false
 
 # The following are dynamic library overrides based on certain critera,
 # usually a theme setting.
